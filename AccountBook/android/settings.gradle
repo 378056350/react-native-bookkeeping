@@ -1,0 +1,11 @@
+rootProject.name = 'AccountBook'
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-splash-screen/android')
+include ':react-native-picker'
+project(':react-native-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-picker/android')
+include ':realm'
+project(':realm').projectDir = new File(rootProject.projectDir, '../node_modules/realm/android')
+include ':react-native-svg'
+project(':react-native-svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
+
+include ':app'
